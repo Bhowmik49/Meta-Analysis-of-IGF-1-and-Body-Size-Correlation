@@ -27,17 +27,14 @@ This repository contains the data and code for the meta-analysis conducted in th
 ## Plots
 
 ### Forest Plot
-![Forest Plot](plots/forest_plot.png)
-
 The forest plot visualizes the effect sizes (correlation coefficients) and their 95% confidence intervals for each animal model. It provides a comprehensive overview of the relationship between IGF-1 and body size across the included studies.
 
 ### Funnel Plot
-![Funnel Plot](plots/funnel_plot.png)
 
 The funnel plot assesses potential publication bias in the meta-analysis. It displays the effect sizes against their standard errors, with the expected funnel shape indicating the absence of publication bias. Asymmetry in the funnel plot may suggest the presence of publication bias.
 
 
 ## Contact
 
-For questions or inquiries, please contact the corresponding author:
+For questions or inquiries, please contact:
 Sagar Bhowmik (szb0232@auburn.edu)
