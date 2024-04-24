@@ -13,18 +13,29 @@ This repository contains the data and code for the meta-analysis conducted in th
   - `effect_size_calculation.R`: Script for calculating correlation coefficients and confidence intervals
   - `meta_analysis.R`: Script for conducting the meta-analysis and creating forest and funnel plots
   - `subgroup_analysis.R`: Script for performing subgroup analysis
+- `plots/`: Contains the generated forest and funnel plots
+  - `forest_plot.png`: Forest plot visualizing the effect sizes and confidence intervals for each animal model
+  - `funnel_plot.png`: Funnel plot assessing publication bias
 
 ## Usage
 
 1. Clone the repository: `git clone https://github.com/yourusername/igf1-body-size-meta-analysis.git`
 2. Install the required R packages: `metafor`, `readr`, `dplyr`, `readxl`, `psych`
 3. Run the R scripts in the `code/` directory to reproduce the analysis
+4. The generated forest and funnel plots can be found in the `plots/` directory
 
-## Citation
+## Plots
 
-If you use the data or code from this repository, please cite the original publication:
+### Forest Plot
+![Forest Plot](plots/forest_plot.png)
 
-Bhowmik, S., Schwartz, T., & Wilson, A. (2024). A Meta-Analysis of IGF-1 Protein Concentration and Body Size Correlation Across Diverse Animal Models. [Journal Name], [Volume](Issue), [Page Range].
+The forest plot visualizes the effect sizes (correlation coefficients) and their 95% confidence intervals for each animal model. It provides a comprehensive overview of the relationship between IGF-1 and body size across the included studies.
+
+### Funnel Plot
+![Funnel Plot](plots/funnel_plot.png)
+
+The funnel plot assesses potential publication bias in the meta-analysis. It displays the effect sizes against their standard errors, with the expected funnel shape indicating the absence of publication bias. Asymmetry in the funnel plot may suggest the presence of publication bias.
+
 
 ## Contact
 
